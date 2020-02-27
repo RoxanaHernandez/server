@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+        }
+
+        button {
+
+            display: table;
+            border-collapse: separate;
+            border-spacing: 2px;
+            border-color: grey;
+        }
+    </style>
+</head>
+
+<body contenteditable="false">
+
+
+    <h1>USUARIOS</h1>
+    <div>
+        <div>
+            <span>NOMBRE</span><input type="text" id="nombre" />
+        </div>
+        <div>
+            <span>APELLIDO</span><input type="text" id="apellido" />
+        </div>
+        <div>
+            <span>E-MAIL</span><input type="text" id="email" />
+        </div>
+
+        <div>
+
+            <button id="boton" type="button">AGREGAR</button>
+        </div>
+    </div>
+    <div>
+        <table>
+            <tbody id="tablaUsuario">
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>E-MAIL</th>
+                </tr>
+                <tr>
+                    <td>CARLOS</td>
+                    <td>LOPEZ</td>
+                    <td>m@gmail.com</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
+</body>
+
+<script src="scripts/button.js"></script>
+</html>
